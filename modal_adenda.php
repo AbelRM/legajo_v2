@@ -1,3 +1,7 @@
+<?php
+    include 'modal_confirmacion.php';
+?>
+
 <div class="modal fade" id="adenda" tabindex="-1" role="dialog" aria-labelledby="mediumModalLabel" aria-hidden="true">
                 <div class="modal-dialog modal-lg" role="document">
                     <div class="modal-content">
@@ -113,9 +117,8 @@
                                 <div class="modal-footer">
                                     <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancelar</button>
                                     <button type="submit" class="btn btn-primary" data-toggle="modal" data-target="#confirmacion" data-dismiss="modal">Agregar</button>
-                                </div>
-                                            
-                                </form>
+                                </div>           
+                            </form>
                         </div>
                     </div>
                 </div>

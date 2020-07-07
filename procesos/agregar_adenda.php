@@ -20,7 +20,7 @@ $id_adenda=$row['last']+1;
 // $nombres = strtoupper($_POST['nombres']);
 
 
-$sql= "INSERT INTO cas_adenda (  id_adenda, id_contrato, id_tadenda, nro_adenda, f_inicio, f_termino, fuente, meta,tip_adenda) VALUES ('".$id_adenda."','".$id_contrato."','".$t_adenda."','".$nro_adenda."', '$f_inicio', '$f_fin' ,'".$fuente."','".$meta."','".$tip_adenda."')";
+$sql= "INSERT INTO cas_adenda (id_adenda, id_contrato, id_tadenda, nro_adenda, f_inicio, f_termino, fuente, meta, tip_adenda) VALUES ('".$id_adenda."','".$id_contrato."','".$t_adenda."','".$nro_adenda."', '$f_inicio', '$f_fin' ,'".$fuente."','".$meta."','".$tip_adenda."')";
 
 $result=pg_query($con,$sql);
 
