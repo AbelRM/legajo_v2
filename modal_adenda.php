@@ -72,35 +72,35 @@
                                     <div class="col-sm-12 col-md-6">
                                         <div class="row form-group">
                                             <div class="col col-md-5"><label for="selectSm" class=" form-control-label">Fecha inicio</label></div>
-                                            <div class="col-12 col-md-7"><input type="date" id="f_inicio" name="f_inicio" class="form-control" require>
+                                            <div class="col-12 col-md-7"><input type="date" id="f_inicio" name="f_inicio" class="form-control">
                                             </div>
                                         </div>
                                     </div>
                                     <div class="col-sm-12 col-md-6">
                                         <div class="row form-group">
                                             <div class="col col-md-5"><label for="selectSm" class=" form-control-label">Fecha termino</label></div>
-                                            <div class="col-12 col-md-7"><input type="date" id="f_fin" name="f_fin" class="form-control" require>
+                                            <div class="col-12 col-md-7"><input type="date" id="f_fin" name="f_fin" class="form-control">
                                             </div>
                                         </div>
                                     </div>
                                     <div class="col-sm-12 col-md-6">
                                         <div class="row form-group">
                                             <div class="col col-md-5"><label for="selectSm" class=" form-control-label">Fuente</label></div>
-                                            <div class="col-12 col-md-7"><input type="text" id="fuente" name="fuente" placeholder="Ejemplo: 'Recursos Ordinarios'" class="form-control" require>
+                                            <div class="col-12 col-md-7"><input type="text" id="fuente" name="fuente" placeholder="Ejemplo: 'Recursos Ordinarios'" class="form-control">
                                             </div><br><br>
                                         </div>
                                     </div>
                                     <div class="col-sm-12 col-md-6">
                                         <div class="row form-group">
                                             <div class="col col-md-5"><label for="selectSm" class=" form-control-label">Meta</label></div>
-                                            <div class="col-12 col-md-7"><input type="text" id="meta" name="meta" placeholder="Ejemplo: '0028'" class="form-control" require>
+                                            <div class="col-12 col-md-7"><input type="text" id="meta" name="meta" placeholder="Ejemplo: '0028'" class="form-control">
                                             </div><br><br>
                                         </div>
                                     </div>
                                     <div class="col-sm-12 col-md-6">
                                         <div class="row form-group">
                                             <div class="col col-md-5"><label for="selectSm" class=" form-control-label">Tipo adenda</label></div>
-                                            <div class="col-md-7" >
+                                            <div class="col-md-7">
                                                 <select name="tip_adenda" id="tip_adenda" class="form-control standardSelect">
                                                     <option value="REGULAR">ADENDA REGULAR</option>
                                                     <option value="COVID">ADENDA COVID</option>
@@ -116,7 +116,7 @@
                                 </div>
                                 <div class="modal-footer">
                                     <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancelar</button>
-                                    <button type="submit" class="btn btn-primary" data-toggle="modal" data-target="#confirmacion" data-dismiss="modal">Agregar</button>
+                                    <button type="submit" class="btn btn-primary">Agregar</button>
                                 </div>           
                             </form>
                         </div>
