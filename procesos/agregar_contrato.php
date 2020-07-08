@@ -19,11 +19,11 @@ $id_contrato=$row['last']+1;
 
 // $nombres = strtoupper($_POST['nombres']);
 
-
 $sql= "INSERT INTO cas_contratos ( idcas, nro_contrato, f_inicio, f_termino, remuner, fuente, cod_ubic, id_cargo, id_contrato, meta, tip_contrato) VALUES ('".$id_cas."','".$nro_cas."', '$f_inicio', '$f_fin' ,'".$remun."','".$fuente."','".$ubicacion."','".$id_cargo."','".$id_contrato."','".$meta."','".$tip_contrato."')";
 
 $result=pg_query($con,$sql);
 
+header('Location: ../modal_confirmacion.php');
 
 pg_close($con);  
 
